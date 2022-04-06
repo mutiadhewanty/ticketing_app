@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ticketing_app/views/home.dart';
+import 'package:ticketing_app/views/welcome.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +16,9 @@ class MyApp extends StatelessWidget {
       title: 'Euphoria',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Colors.white,
-        visualDensity: VisualDensity.adaptivePlatformDensity
-      ),
-      home: Home(),
+          primaryColor: Colors.white,
+          visualDensity: VisualDensity.adaptivePlatformDensity),
+      home: Welcome(),
     );
   }
 }
-
