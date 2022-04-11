@@ -8,7 +8,7 @@ class Welcome extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'images/wallpaper.jpg',
+            'assets/images/wallpaper.jpg',
             fit: BoxFit.fill,
             height: double.infinity,
             width: double.infinity,
@@ -48,7 +48,7 @@ class Welcome extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
               Text(
-                "Enjoy the world",
+                "Welcome ...",
                 textScaleFactor: 1,
                 style: TextStyle(
                     fontSize: 36,
@@ -59,9 +59,9 @@ class Welcome extends StatelessWidget {
                 height: 5,
               ),
               Text(
-                "We will help you find the best \n experiences and adventures",
+                "Euphoria",
                 style: TextStyle(
-                    fontSize: 16,
+                    fontSize: 20,
                     color: Colors.white,
                     fontWeight: FontWeight.w400),
               ),
