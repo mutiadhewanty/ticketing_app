@@ -48,7 +48,7 @@ class Welcome extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: <Widget>[
               Text(
-                "Welcome",
+                "Enjoy the world",
                 textScaleFactor: 1,
                 style: TextStyle(
                     fontSize: 36,
@@ -59,7 +59,7 @@ class Welcome extends StatelessWidget {
                 height: 5,
               ),
               Text(
-                "Euphoria",
+                "We will help you find the best \n experiences and adventures",
                 style: TextStyle(
                     fontSize: 16,
                     color: Colors.white,
@@ -83,7 +83,7 @@ class Welcome extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
-                        color: Color.fromARGB(255, 22, 11, 14),
+                        color: Colors.pink,
                       ),
                     ),
                   ),
