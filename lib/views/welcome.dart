@@ -8,7 +8,7 @@ class Welcome extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Image.asset(
-            'images/wallpaper.jpg',
+            'assets/images/wallpaper.jpg',
             fit: BoxFit.fill,
             height: double.infinity,
             width: double.infinity,
@@ -83,7 +83,7 @@ class Welcome extends StatelessWidget {
                       padding: const EdgeInsets.all(8.0),
                       child: Icon(
                         Icons.arrow_forward_ios,
-                        color: Colors.pink,
+                        color: Color.fromARGB(255, 39, 37, 205),
                       ),
                     ),
                   ),
