@@ -79,7 +79,10 @@ class _HomeState extends State<Home> {
                         child: TextField(
                           // controller: searchController,
                           decoration: InputDecoration(
+
                               hintText: 'Search',
+
+
                               border: InputBorder.none),
                         ),
                       ),
@@ -127,6 +130,7 @@ class _HomeState extends State<Home> {
                 ),
                 IconButton(
                   icon: Icon(
+
                     Icons.airplane_ticket,
                     color: Colors.black,
                   ),
@@ -137,6 +141,7 @@ class _HomeState extends State<Home> {
               builder: (BuildContext context) => OrderTicket(),
             ));
                   },
+
                 ),
               ],
             ),
@@ -147,27 +152,7 @@ class _HomeState extends State<Home> {
             SizedBox(
               height: 30,
             ),
-      //       CustomNavigationBar(
-        
-      //   items: [
-      //     CustomNavigationBarItem(
-      //       icon: Icon(Icons.home),
-      //     ),
-      //     CustomNavigationBarItem(
-      //       icon: Icon(Icons.shopping_cart),
-      //     ),
-      //     CustomNavigationBarItem(
-      //       icon: Icon(Icons.lightbulb_outline),
-      //     ),
-      //     CustomNavigationBarItem(
-      //       icon: Icon(Icons.search),
-      //     ),
-      //     CustomNavigationBarItem(
-      //       icon: Icon(Icons.account_circle),
-      //     ),
-      //   ],
-        
-      // )
+
             // Align(
             //     alignment: Alignment.bottomCenter,
             //     child: Row(
