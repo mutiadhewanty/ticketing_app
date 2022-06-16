@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:ticketing_app/views/LoginScreen.dart';
 import 'package:ticketing_app/views/home.dart';
+import 'package:ticketing_app/views/login.dart';
+import 'package:ticketing_app/views/register.dart';
 import 'package:ticketing_app/views/welcome.dart';
 import 'package:ticketing_app/widgets/images_card.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +23,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primaryColor: Colors.white,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: LoginScreen(),
+
+      home: RegisterScreen(),
     );
   }
 }
