@@ -1,8 +1,8 @@
 class Place{
   String ?place;
   String ?image;
-  int ?days;
+  int ?price;
 
-  Place({this.place, this.image, this.days});
+  Place({this.place, this.image, this.price});
 
 }

@@ -1,5 +1,6 @@
 import 'package:custom_navigation_bar/custom_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:ticketing_app/views/orderTicket.dart';
 
 import '../widgets/categorie_card.dart';
 import '../widgets/image_card.dart';
@@ -78,7 +79,7 @@ class _HomeState extends State<Home> {
                         child: TextField(
                           // controller: searchController,
                           decoration: InputDecoration(
-                              hintText: 'Search Wallpaper',
+                              hintText: 'Search',
                               border: InputBorder.none),
                         ),
                       ),
@@ -126,10 +127,16 @@ class _HomeState extends State<Home> {
                 ),
                 IconButton(
                   icon: Icon(
-                    Icons.more_horiz,
+                    Icons.airplane_ticket,
                     color: Colors.black,
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (BuildContext context) => OrderTicket(),
+            ));
+                  },
                 ),
               ],
             ),
@@ -140,27 +147,27 @@ class _HomeState extends State<Home> {
             SizedBox(
               height: 30,
             ),
-            CustomNavigationBar(
+      //       CustomNavigationBar(
         
-        items: [
-          CustomNavigationBarItem(
-            icon: Icon(Icons.home),
-          ),
-          CustomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart),
-          ),
-          CustomNavigationBarItem(
-            icon: Icon(Icons.lightbulb_outline),
-          ),
-          CustomNavigationBarItem(
-            icon: Icon(Icons.search),
-          ),
-          CustomNavigationBarItem(
-            icon: Icon(Icons.account_circle),
-          ),
-        ],
+      //   items: [
+      //     CustomNavigationBarItem(
+      //       icon: Icon(Icons.home),
+      //     ),
+      //     CustomNavigationBarItem(
+      //       icon: Icon(Icons.shopping_cart),
+      //     ),
+      //     CustomNavigationBarItem(
+      //       icon: Icon(Icons.lightbulb_outline),
+      //     ),
+      //     CustomNavigationBarItem(
+      //       icon: Icon(Icons.search),
+      //     ),
+      //     CustomNavigationBarItem(
+      //       icon: Icon(Icons.account_circle),
+      //     ),
+      //   ],
         
-      )
+      // )
             // Align(
             //     alignment: Alignment.bottomCenter,
             //     child: Row(
